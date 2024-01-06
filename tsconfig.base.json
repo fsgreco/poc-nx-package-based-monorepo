@@ -18,6 +18,9 @@
       "@fsg/lib-public-buildable": [
         "packages/lib-public-buildable/src/index.ts"
       ],
+      "lib-non-public-buildable": [
+        "packages/lib-non-public-buildable/src/index.ts"
+      ],
       "lib-non-public-non-buildable": [
         "packages/lib-non-public-non-buildable/src/index.ts"
       ]
