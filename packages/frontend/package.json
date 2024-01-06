@@ -1,0 +1,13 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Santiago Greco <fsgreco@fastmail.com> (https://github.com/fsgreco)",
+  "license": "MIT",
+  "dependencies": {
+    "@fsg/lib-public-buildable": "*"
+  }
+}
