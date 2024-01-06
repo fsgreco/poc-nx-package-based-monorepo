@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "lib-non-public-non-buildable": [
+        "packages/lib-non-public-non-buildable/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
