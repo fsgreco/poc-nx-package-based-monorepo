@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fsg/lib-public-buildable": [
+      "@fsg/lib-public-buildable-changed-alias": [
         "packages/lib-public-buildable/src/index.ts"
       ],
       "lib-non-public-buildable": [

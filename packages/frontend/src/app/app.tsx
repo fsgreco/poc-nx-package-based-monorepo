@@ -4,7 +4,7 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
-import {LibPublicBuildable} from '@fsg/lib-public-buildable'
+import {LibPublicBuildable} from '@fsg/lib-public-buildable-changed-alias'
 import {LibNonPublicBuildable} from 'lib-non-public-buildable'
 import {LibNonPublicNonBuildable} from 'lib-non-public-non-buildable'
 
@@ -24,6 +24,8 @@ export function App() {
 			
 			<LibNonPublicNonBuildable />
 
+			{/* Now this works */}
+			<LibPublicBuildable />
 
       <NxWelcome title="frontend" />
 
