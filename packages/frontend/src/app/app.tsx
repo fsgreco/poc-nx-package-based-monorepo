@@ -4,6 +4,12 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
+import {LibPublicBuildable} from '@fsg/lib-public-buildable'
+import {LibNonPublicBuildable} from 'lib-non-public-buildable'
+import {LibNonPublicNonBuildable} from 'lib-non-public-non-buildable'
+
+
+
 const StyledApp = styled.div`
   // Your style here
 `;
@@ -11,6 +17,14 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
+
+			{/* THIS WILL BLOW UP THE APP */}
+			{/* <LibPublicBuildable /> */}
+			{/* <LibNonPublicBuildable /> */}
+			
+			<LibNonPublicNonBuildable />
+
+
       <NxWelcome title="frontend" />
 
       {/* START: routes */}
